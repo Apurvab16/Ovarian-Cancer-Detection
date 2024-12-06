@@ -16,13 +16,7 @@ Oversampling: Used techniques like SMOTE (Synthetic Minority Oversampling Techni
 Feature Selection: Identified the most significant genes contributing to ovarian cancer subtypes for model input.
 
 # Machine Learning Models
-K-Nearest Neighbors (KNN)
-Evaluated hyperparameters such as the number of neighbors, distance metrics, and weights.
-Optimized performance using GridSearchCV.
-
-XGBoost
-Fine-tuned hyperparameters like learning rate, number of estimators, and tree depth.
-Addressed the multiclass classification challenge using a softmax objective function.
+This project leveraged a variety of machine learning models to classify ovarian cancer subtypes, including K-Nearest Neighbors (KNN), XGBoost, Logistic Regression, Random Forest, and Decision Trees.  KNN was optimized by tuning hyperparameters such as the number of neighbors, distance metrics, and weights using GridSearchCV. XGBoost was fine-tuned for learning rate, number of estimators, and tree depth, employing a softmax objective function to address the multiclass classification problem.
 
 # Results
 Accuracy Achieved: 78% on the test dataset, showcasing the model's reliability in classifying ovarian cancer subtypes.
